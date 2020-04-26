@@ -1,0 +1,213 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    /*<!-- 1383 0447677110-15 Husna Muttaqiyyah -->*/
+  .lesson{
+    width: 100%;
+  }
+  
+  .prof{
+    width: 100%;
+  }
+  
+  /*E30_DTS20 [hendryawan#9650] 0447677141-36*/
+  .lesson-foot {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .lesson-foot p {
+    text-align:center;
+  }
+  
+  .our {
+    width: 100%;
+  }
+
+    .exp {
+      width: 100%;
+    }
+      
+      .top-wrapper h1 {
+        font-size: 32px;
+      }
+      
+      .heading h2 {
+        font-size: 20px;
+    	padding-top:40px;
+    	padding-bottom:40px;
+      }
+      
+     .peta {
+        width:100%;
+   	    text-align:center;
+    }
+    	
+   	.zoom {
+      transition: transform .2s;
+    }
+    
+    .zoom:hover {
+      -ms-transform: scale(1.2); /* IE 9 */
+      -webkit-transform: scale(1.2); /* Safari 3-8 */
+      transform: scale(1.2); 
+    }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    /*<!-- 1383 0447677110-15 Husna Muttaqiyyah -->*/
+  .lesson {
+    width: 100%;
+  }
+  
+  .prof{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .header-right{
+    display:none;
+  }
+  
+  .menu-icon{
+    display:block;
+  }
+  
+  .text{
+    font-size:10px;
+  }
+  
+  /*Pengaturan nav header*/
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    padding:20px 20px 15px 20px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(255, 255, 255, 0.3);
+    
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 3px solid #eee;
+  }
+  
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 65px;
+    left: 0px;
+  }
+  
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+    
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(40vh - 50px);
+    overflow-y: auto;
+  }
+  
+  /*E30_DTS20 [hendryawan#9650] 0447677141-36*/
+  .lesson-foot {
+    width: 100%;
+  }
+  
+  .our {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.exp {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.heading h2 {
+	padding-top:40px;
+	padding-bottom:40px;
+	font-size:35px;
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+  
+  .lesson-foot h2 {
+	text-align:center;
+	color:#ffffff;
+	font-size:20px;
+}
+
+.lesson-foot p {
+    text-align:center;
+  }
+  
+  .peta {
+	width:100%;
+	text-align:center;
+	}
+
+.footer-title { 
+	text-align:center; 
+	font-size: 24px; 
+	font-weight: 600; 
+	color: #fff; 
+	}
+  
+  footer {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
